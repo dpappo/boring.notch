@@ -100,7 +100,8 @@ brew install --cask TheBoredTeam/boring-notch/boring-notch
 - Launch the app, and voilà—your notch is now the coolest part of your screen.
 - Hover over the notch to see it expand and reveal all its secrets.
 - Use the controls to manage your music like a rockstar.
-- Open the new **Activity** tab (heartbeat icon) to monitor live CPU, memory, and best-effort GPU usage, including top 3 processes per section.
+- Open the new **Activity** tab (heartbeat icon) to monitor live CPU, memory, and Apple Silicon GPU usage, including top 3 processes per section.
+- Your selected notch tab now persists between close/reopen, so returning to the notch keeps the last tab you used.
 - Click the star in your menu bar to customize your notch to your heart's content.
 
 ## 📋 Roadmap

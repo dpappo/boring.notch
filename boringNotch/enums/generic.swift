@@ -30,6 +30,32 @@ public enum NotchViews {
     case activity
 }
 
+extension NotchViews {
+    var persistedValue: String {
+        switch self {
+        case .home:
+            return "home"
+        case .shelf:
+            return "shelf"
+        case .activity:
+            return "activity"
+        }
+    }
+
+    init?(persistedValue: String) {
+        switch persistedValue {
+        case "home":
+            self = .home
+        case "shelf":
+            self = .shelf
+        case "activity":
+            self = .activity
+        default:
+            return nil
+        }
+    }
+}
+
 enum SettingsEnum {
     case general
     case about
